@@ -1,1 +1,53 @@
-this is a css file
+body{
+	border: 0px;
+	padding: 0px;
+	margin: 0px
+}
+
+#container{
+	margin: 100px 10px 0px;
+	width: 100%;
+	height: 500px;
+}
+
+.chead{
+	width: inherit;
+	height: 60px;
+	float: left;
+}
+.chead-row1{
+	width: 60px;
+	height: 60px;
+	float: left;
+}
+.chead-row2{
+	width: 147px;
+	float: left;
+}
+.chead-row3{
+	width: 147px;
+	float: left;
+}
+
+.cbody{
+	width: inherit;
+	height: 220px;
+	float: left;
+}
+.cbody-row1{
+	width: 60px;
+	height: 220px;
+	float: left;
+}
+.cbody-row1 p{
+	transform:rotate(90deg);
+}
+.cbody-row2{
+	width: 147px;
+	float: left;
+}
+.cbody-row3{
+	width: 147px;
+	float: left;
+}
+
